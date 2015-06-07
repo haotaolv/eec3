@@ -1,0 +1,91 @@
+body{
+	font-family: "Lantinghei SC Demibold", "Microsoft YaHei",  Halvatica, Arial, sans-serif;
+}
+/*默认状态的导航栏*/
+.navbar-default {
+	background-color: rgb(12,96,163);
+	color: ghostwhite;
+}
+/*默认状态的导航栏品牌标志*/
+.navbar>.container .navbar-brand {
+	color: ghostwhite;
+	/*margin-left: 10%;*/
+}
+/*激活状态的导航栏品牌标志*/
+.navbar>.container .navbar-brand:hover, .navbar>.container .navbar-brand:focus{
+	color: white;
+	/*margin-left: 10%;*/
+}
+/*默认状态的导航栏条目*/
+.navbar-default .navbar-nav>li>a {
+	/*margin-left: 10%;
+	margin-right: 10%;*/
+	color: ghostwhite;
+	font-weight: bold; 
+}
+/*激活状态的导航栏条目*/
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus,
+ .navbar-default .navbar-nav>li.active>a, .navbar-default .navbar-nav>li.active>a:hover, .navbar-default .navbar-nav>li.active>a:focus{
+	background-color: white;
+	color: rgb(12,96,163);
+}
+/*小屏幕显示的可展开菜单的条目*/
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: ghostwhite;
+}
+/*激活状态的导航栏下拉菜单*/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	background-color: white;
+	color: rgb(12,96,163);
+}
+/*默认状态的弹出导航栏下拉菜单*/
+.navbar-default .navbar-nav .open .dropdown-menu{
+	background-color: rgb(12,96,163);
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+	color: ghostwhite;
+}
+/*激活状态的弹出导航栏下拉菜单*/
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+	background-color: ghostwhite;
+	color: rgb(12,96,163);
+}
+.course{
+	/*margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;*/
+}
+h2.goldenTeacher{
+	color:#D9D919;
+}
+/*脚注*/
+footer{
+	margin-top:10%;
+}
+/*首页左右留白*/
+.indexcontainer{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+/*首页上面的课程信息*/
+.course{
+	margin-top: 20px;
+}
+.courseRadio{
+	border: 1px;
+}
+/*课程介绍板 半透明效果*/
+.courseDetail{
+	background:rgba(255, 255, 255, 0.8);  
+	padding:40px;
+	/*filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8;*/
+}
+/*课程介绍板 蓝色分割线*/
+.courseDetail hr{
+	border-top: 1px solid rgb(12,96,163);
+}
+.courseDetail li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
