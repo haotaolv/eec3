@@ -1,0 +1,33 @@
+.panel-left{
+
+    color:#000000;
+    background-color: #ffffff;
+    height:100%;
+    width:100%;
+    border:5px solid #D4D4D4;
+}
+.panel-left-in{
+
+    background-color: #ffffff;
+}
+.panel-right{
+    /*padding-left: 0px;*/
+    background-color: #D4D4D4;
+    height: 100%;
+}
+.container-margin-top{
+
+    margin-top: -20px;
+}
+
+.panel-right-area{
+
+    width:105%;
+    height:100%;
+    background-color: #ffffff;
+}
+.panel-right-title{
+
+    font-size: 20px;
+    color: #000000;
+}
